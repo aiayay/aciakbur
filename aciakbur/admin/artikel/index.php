@@ -52,7 +52,7 @@
                                     ?>
                                     <tr>
                                         <td><?=  $no++; ?></td>
-                                        <td><?= $item['judul_artikel']; ?></td>
+                                        <td class="isi"><?= $item['judul_artikel']; ?></td>
                                         <td class="isi"><?= $item['isi_artikel']; ?></td>                                        
                                         <td><?= $item['tanggal_artikel']?></td>
                                         <td><img src="assets/images/artikel/<?= $item['gambar_artikel']?>" width="100px"></td>

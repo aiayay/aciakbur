@@ -10,6 +10,8 @@ $slug2=preg_replace("/\s/","-",$judul_artikel);
 $slug1=strtolower($slug2);
 $slug = preg_replace("/[^a-zA-Z0-9 -]/","",$slug1);
 
+
+$judul_artikel = mysqli_real_escape_string($koneksi, $judul_artikel);
 $isi_artikel = mysqli_real_escape_string($koneksi, $isi_artikel);
 
 if($_FILES['gambar_artikel']['name']==''){

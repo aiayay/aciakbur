@@ -48,8 +48,9 @@ $item = mysqli_fetch_array($search);
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Judul Artikel</label>
-                                        <input type="text" class="form-control" name="judul_artikel"
-                                            placeholder=" Masukan Judul Artikel" value="<?php echo $item ['judul_artikel'];?>">
+                                        <!-- <input type="text" class="form-control" name="judul_artikel"
+                                            placeholder=" Masukan Judul Artikel" value="<?php echo $item ['judul_artikel'];?>"> -->
+                                        <textarea name="judul_artikel" id="editor" cols="3" rows="13" class="form-control" required><?php echo $item['judul_artikel']; ?></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Isi Artikel</label>

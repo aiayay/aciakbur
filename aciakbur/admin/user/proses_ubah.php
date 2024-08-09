@@ -3,7 +3,7 @@ include '../koneksi.php';
 
 $id_admin = $_POST['id_admin'];
 $username = $_POST['username'];
-$password = $_POST ['password'];
+// $password = $_POST ['password'];
 $nama_lengkap = $_POST ['nama_lengkap'];
 
 
@@ -25,7 +25,7 @@ if($_FILES['foto']['name']==''){
 
 
 
-$update = mysqli_query($koneksi, "UPDATE user SET username='$username', password='$password', nama_lengkap='$nama_lengkap', foto='$namafile' 
+$update = mysqli_query($koneksi, "UPDATE user SET username='$username', nama_lengkap='$nama_lengkap', foto='$namafile' 
 WHERE id_admin='$id_admin'");
 
 if ($update){

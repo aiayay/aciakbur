@@ -53,11 +53,11 @@ $item = mysqli_fetch_array($search);
                                         <input type="text" class="form-control" name="username"
                                             placeholder="Masukan Username" value="<?php echo $item ['username'];?>">
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="exampleInputPassword1">Password</label>
                                         <input type="password" class="form-control" name="password"
                                             placeholder=" Masukan Password" value="<?php echo $item ['password'];?>">
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Nama lengkap</label>
                                         <input type="text" class="form-control" name="nama_lengkap"

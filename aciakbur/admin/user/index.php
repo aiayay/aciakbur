@@ -37,7 +37,7 @@
                                     <tr>
                                         <th>No</th>
                                         <th>Username</th>
-                                        <th>Password </th>
+                                      
                                         <th>Nama Lengkap</th>
                                         <th>Foto</th>
                                         <th>Level</th>
@@ -55,7 +55,7 @@
                                     <tr>
                                         <td><?= $no++?></td>
                                         <td><?= $item ['username']?></td>
-                                        <td><?= $item ['password']?></td>
+                                    
                                         <td><?= $item ['nama_lengkap']?></td>
                                         <td><img src="assets/images/user/<?=$item ['foto']?>" width="100"></td>
                                         <td><a href="?page=user/ubah&id_admin=<?php echo $item["id_admin"];?>" class="btn btn-success">ubah</a>

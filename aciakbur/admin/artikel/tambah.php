@@ -38,8 +38,9 @@
                                 <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1">Judul Artikel</label>
-                                                <input type="text" class="form-control" name="judul_artikel"
-                                                    placeholder=" Masukan Judul Artikel">
+                                                <!-- <input type="text" class="form-control" name="judul_artikel"
+                                                    placeholder=" Masukan Judul Artikel"> -->
+                                                <textarea name="judul_artikel" id="" id="editor" cols="3" rows="13" class="form-control" required></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1">Isi Artikel</label>
